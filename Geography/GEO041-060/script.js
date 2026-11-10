@@ -6,7 +6,7 @@
  // Sound Engine + Facebook Return + Result Screen
  // ============================================================
 
-const FACEBOOK_POST_URL = "https://www.facebook.com/photo?fbid=122125141119435742&set=a.122102731923435742";
+const FACEBOOK_POST_URL = "https://www.facebook.com/photo/?fbid=122125452723435742&set=a.122102731923435742";
 
 
 // ============================================================
