@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>সাধারন জ্ঞান- ভূগোল MCQ Challenge 04</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<main>
+
+  <!-- =========================
+       START SCREEN
+       ========================= -->
+
+  <section id="start-screen" class="start-screen">
+
+    <div class="top-badge">
+      MCQ
+    </div>
+
+    <h1>ভূগোল</h1>
+
+    <h2>
+      MCQ Challenge <span>04</span>
+    </h2>
+
+    <div class="info-box">
+
+      <div>
+        <strong>20টি প্রশ্ন</strong>
+      </div>
+
+      <div>
+        <strong>Learning / Exam Mode</strong>
+      </div>
+
+      <div>
+        <strong>15 Seconds per Question</strong>
+      </div>
+
+    </div>
+
+    <p class="instruction">
+      একটি মোড নির্বাচন করে শুরু করো
+    </p>
+
+    <div class="mode-buttons">
+
+      <button
+        id="learningBtn"
+        class="mode-btn learning"
+        onclick="startQuiz('learning')">
+        📖 LEARNING MODE
+      </button>
+
+      <button
+        id="examBtn"
+        class="mode-btn exam"
+        onclick="startQuiz('exam')">
+        ⏱ EXAM MODE
+      </button>
+
+    </div>
+
+    <p id="status" class="status"></p>
+
+  </section>
+
+
+  <!-- =========================
+       QUIZ SCREEN
+       ========================= -->
+
+  <section id="quiz-screen" class="quiz-screen">
+
+    <div class="quiz-container">
+
+      <div class="quiz-top">
+
+        <div class="question-counter">
+          Question
+          <span id="question-number">1</span>
+          /
+          <span id="total-questions">23</span>
+        </div>
+
+        <div class="timer-box">
+          ⏱
+          <span id="timer">15</span>
+        </div>
+
+      </div>
+
+
+      <!-- Progress Bar -->
+
+      <div class="progress">
+        <div id="progress-bar"></div>
+      </div>
+
+
+      <!-- Question -->
+
+      <div id="question" class="question"></div>
+
+
+      <!-- Options -->
+
+      <div id="options"></div>
+
+
+      <!-- Feedback -->
+
+      <div id="feedback">
+
+        <div id="correct-message"></div>
+
+        <div id="wrong-message"></div>
+
+        <div id="example-text"></div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       RESULT SCREEN
+       ========================= -->
+
+  <section id="result-screen" class="result-screen">
+
+    <div class="result-card">
+
+      <h1>🎉 Quiz Completed!</h1>
+
+      <div id="score"></div>
+
+      <div id="percentage"></div>
+
+      <p id="result-message"></p>
+
+
+      <div class="social-message">
+
+        ❤️ <strong>Did you enjoy the quiz?</strong>
+
+        <br><br>
+
+        👍 Like our Facebook Post<br>
+
+        💬 Comment your score<br>
+
+        🔄 Share the quiz with your friends<br>
+
+        ❤️ Follow our page for more quizzes!
+
+      </div>
+
+
+      <button
+        onclick="returnToFacebook()"
+        class="facebook-btn">
+        🔵 RETURN TO FACEBOOK
+      </button>
+
+
+      <button
+        onclick="reloadQuiz()"
+        class="play-again-btn">
+        🔄 PLAY AGAIN
+      </button>
+
+    </div>
+
+  </section>
+
+</main>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
