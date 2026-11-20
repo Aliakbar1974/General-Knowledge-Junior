@@ -6,7 +6,7 @@
  // Sound Engine + Facebook Return + Result Screen
  // ============================================================
 
-const FACEBOOK_POST_URL = "https://www.facebook.com/photo/?fbid=122126514855435742&set=a.122102731923435742";
+const FACEBOOK_POST_URL = "https://www.facebook.com/photo/?fbid=122127009423435742&set=a.122102731923435742";
 
 
 // ============================================================
@@ -43,10 +43,11 @@ function playSound(soundName) {
 
 
 
+
 const quizData = [
   {
     id: "Math001",
-    question: "2 + 3 = কত?",
+    question: "২ + ৩ = কত?",
     options: ["৪", "৬", "৫", "৭"],
     answer: 2,
     explanation: "২ + ৩ = ৫।",
@@ -54,7 +55,7 @@ const quizData = [
   },
   {
     id: "Math002",
-    question: "7 − 4 = কত?",
+    question: "৭ − ৪ = কত?",
     options: ["৩", "২", "৪", "৫"],
     answer: 0,
     explanation: "৭ থেকে ৪ বিয়োগ করলে ৩ থাকে।",
@@ -62,7 +63,7 @@ const quizData = [
   },
   {
     id: "Math003",
-    question: "3 + 5 = কত?",
+    question: "৩ + ৫ = কত?",
     options: ["৭", "৯", "৬", "৮"],
     answer: 3,
     explanation: "৩ + ৫ = ৮।",
@@ -70,7 +71,7 @@ const quizData = [
   },
   {
     id: "Math004",
-    question: "9 − 2 = কত?",
+    question: "৯ − ২ = কত?",
     options: ["৬", "৭", "৮", "৫"],
     answer: 1,
     explanation: "৯ থেকে ২ বিয়োগ করলে ৭ থাকে।",
@@ -78,7 +79,7 @@ const quizData = [
   },
   {
     id: "Math005",
-    question: "4 × 2 = কত?",
+    question: "৪ × ২ = কত?",
     options: ["৬", "৮", "১০", "১২"],
     answer: 1,
     explanation: "৪ × ২ = ৪ + ৪ = ৮।",
@@ -86,7 +87,7 @@ const quizData = [
   },
   {
     id: "Math006",
-    question: "10 ÷ 2 = কত?",
+    question: "১০ ÷ ২ = কত?",
     options: ["৪", "৬", "৩", "৫"],
     answer: 3,
     explanation: "১০ ÷ ২ = ৫।",
@@ -94,7 +95,7 @@ const quizData = [
   },
   {
     id: "Math007",
-    question: "6 + 7 = কত?",
+    question: "৬ + ৭ = কত?",
     options: ["১৩", "১২", "১৪", "১৫"],
     answer: 0,
     explanation: "৬ + ৭ = ১৩।",
@@ -102,7 +103,7 @@ const quizData = [
   },
   {
     id: "Math008",
-    question: "15 − 6 = কত?",
+    question: "১৫ − ৬ = কত?",
     options: ["৮", "১০", "৯", "৭"],
     answer: 2,
     explanation: "১৫ থেকে ৬ বিয়োগ করলে ৯ থাকে।",
@@ -110,7 +111,7 @@ const quizData = [
   },
   {
     id: "Math009",
-    question: "3 × 4 = কত?",
+    question: "৩ × ৪ = কত?",
     options: ["১০", "১১", "১৪", "১২"],
     answer: 3,
     explanation: "৩ × ৪ = ৩ + ৩ + ৩ + ৩ = ১২।",
@@ -118,7 +119,7 @@ const quizData = [
   },
   {
     id: "Math010",
-    question: "20 ÷ 5 = কত?",
+    question: "২০ ÷ ৫ = কত?",
     options: ["৫", "৪", "৩", "৬"],
     answer: 1,
     explanation: "২০ ÷ ৫ = ৪।",
@@ -126,7 +127,7 @@ const quizData = [
   },
   {
     id: "Math011",
-    question: "8 + 9 = কত?",
+    question: "৮ + ৯ = কত?",
     options: ["১৬", "১৮", "১৭", "১৯"],
     answer: 2,
     explanation: "৮ + ৯ = ১৭।",
@@ -134,7 +135,7 @@ const quizData = [
   },
   {
     id: "Math012",
-    question: "18 − 9 = কত?",
+    question: "১৮ − ৯ = কত?",
     options: ["৮", "১০", "১১", "৯"],
     answer: 3,
     explanation: "১৮ থেকে ৯ বিয়োগ করলে ৯ থাকে।",
@@ -142,7 +143,7 @@ const quizData = [
   },
   {
     id: "Math013",
-    question: "5 × 5 = কত?",
+    question: "৫ × ৫ = কত?",
     options: ["২৫", "২০", "৩০", "১৫"],
     answer: 0,
     explanation: "৫ × ৫ = ২৫।",
@@ -150,7 +151,7 @@ const quizData = [
   },
   {
     id: "Math014",
-    question: "24 ÷ 6 = কত?",
+    question: "২৪ ÷ ৬ = কত?",
     options: ["৩", "৪", "৫", "৬"],
     answer: 1,
     explanation: "২৪ ÷ ৬ = ৪।",
@@ -158,7 +159,7 @@ const quizData = [
   },
   {
     id: "Math015",
-    question: "12 + 15 = কত?",
+    question: "১২ + ১৫ = কত?",
     options: ["২৫", "২৬", "২৮", "২৭"],
     answer: 3,
     explanation: "১২ + ১৫ = ২৭।",
@@ -166,7 +167,7 @@ const quizData = [
   },
   {
     id: "Math016",
-    question: "30 − 12 = কত?",
+    question: "৩০ − ১২ = কত?",
     options: ["১৭", "১৯", "১৮", "২০"],
     answer: 2,
     explanation: "৩০ থেকে ১২ বিয়োগ করলে ১৮ থাকে।",
@@ -174,7 +175,7 @@ const quizData = [
   },
   {
     id: "Math017",
-    question: "6 × 7 = কত?",
+    question: "৬ × ৭ = কত?",
     options: ["৪২", "৩৬", "৪৮", "৪০"],
     answer: 0,
     explanation: "৬ × ৭ = ৪২।",
@@ -182,7 +183,7 @@ const quizData = [
   },
   {
     id: "Math018",
-    question: "36 ÷ 4 = কত?",
+    question: "৩৬ ÷ ৪ = কত?",
     options: ["৮", "১০", "৯", "১২"],
     answer: 2,
     explanation: "৩৬ ÷ ৪ = ৯।",
@@ -190,7 +191,7 @@ const quizData = [
   },
   {
     id: "Math019",
-    question: "25 + 16 = কত?",
+    question: "২৫ + ১৬ = কত?",
     options: ["৩৯", "৪০", "৪২", "৪১"],
     answer: 3,
     explanation: "২৫ + ১৬ = ৪১।",
@@ -198,13 +199,14 @@ const quizData = [
   },
   {
     id: "Math020",
-    question: "50 − 27 = কত?",
+    question: "৫০ − ২৭ = কত?",
     options: ["২২", "২৩", "২৪", "২৫"],
     answer: 1,
     explanation: "৫০ থেকে ২৭ বিয়োগ করলে ২৩ থাকে।",
     example: "৫০ টাকা থেকে ২৭ টাকা খরচ করলে ২৩ টাকা অবশিষ্ট থাকে।"
   }
 ];
+
 
 
 
