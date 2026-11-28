@@ -6,7 +6,7 @@
  // Sound Engine + Facebook Return + Result Screen
  // ============================================================
 
-const FACEBOOK_POST_URL = "https://www.facebook.com/photo/?fbid=122127009423435742&set=a.122102731923435742";
+const FACEBOOK_POST_URL = "https://www.facebook.com/photo/?fbid=122128349379435742&set=a.122102731923435742";
 
 
 // ============================================================
@@ -40,8 +40,6 @@ function playSound(soundName) {
 // explanation এবং example আলাদা রাখা হয়েছে
 // answer index: 0=A, 1=B, 2=C, 3=D
 // ============================================================
-
-
 
 const quizData = [
   {
@@ -170,9 +168,6 @@ const quizData = [
     example: "(১৮ − ৬) ÷ ২ = ১২ ÷ ২ = ৬।"
   }
 ];
-
-
-
 
 // ============================================================
 // GLOBAL VARIABLES
